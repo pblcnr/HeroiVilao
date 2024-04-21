@@ -11,8 +11,8 @@
     <div id="app">
         <div class="personagem">
             <div class="barra-vida" :style="{width: heroi.vida + '%'}">{{heroi.vida}}</div>
-            <div class="sprite">Placeholder Imagem</div>
-            <h1>Héroi</h1>
+            <div class="sprite"><img src="./images/scott.png" alt="Scott Pilgrim" height="160" width="160"></div>
+            <h1>Scott Pilgrim</h1>
             <div class="acoes">
                 <button @click="atacar(true)">Atacar</button>
                 <button @click="defender(true)">Defender</button>
@@ -22,8 +22,8 @@
         </div>
         <div class="personagem">
             <div class="barra-vida" :style="{width: vilao.vida + '%'}">{{vilao.vida}}</div>
-            <div class="sprite">Placeholder Imagem</div>
-            <h1>Vilão</h1>            
+            <div class="sprite"><img src="./images/gideon.webp" alt="Gideon" height="160" width="160"></div>
+            <h1>Gideon</h1>            
         </div>
     </div>
 </body>
